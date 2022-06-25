@@ -1,1 +1,2 @@
-print("Hellow world!")
+print("Hello Musa!")
+print(".!.")
