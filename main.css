@@ -1,0 +1,16 @@
+body {
+    background: #f1f1f1;
+}
+
+.description {
+    position: relative; left: 150px;
+
+}
+
+h1 {
+    position: relative; left: 370px;
+}
+
+electric1 {
+    position: relative; top: 100px;
+}
