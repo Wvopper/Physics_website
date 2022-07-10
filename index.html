@@ -1,26 +1,17 @@
 {% extends 'main/base.html' %}
 
+{% load static %}
+
 {% block title %}
-The main page of the site
+{{ title }}
 {% endblock %}
 
 {% block content %}
     <h1>Добро пожаловать</h1>
     <hr>
-    <h6>На данном сайте вы сможете найти множество формул по фзике которые помогут при решении задач</h6>
-    <h6>Списки формул со временем будут пополняться. Надеюсь вы сможете найти нужную информацию. Желаю удачи!</h6>
+    <h6 class="description">На данном сайте вы сможете найти множество формул по фзике которые помогут при решении задач</h6>
+    <h6 class="description">Списки формул со временем будут пополняться. Надеюсь вы сможете найти нужную информацию. Желаю удачи!</h6>
     <hr>
     <h6>Кинематика</h6>
-        <p><a href="{% url 'KinemBase' %}">ссылка 1</a></p>
-<!--    <p><a>ссылка 2</a></p>-->
-<!--    {% if tasks %}-->
-<!--    {% for i in tasks %}-->
-<!--    <div class="alert alert-warning mt-2">-->
-<!--        <h3>{{ i.title }}</h3>-->
-<!--        <p>{{ i.text }}</p>-->
-<!--    </div>-->
-<!--    {% endfor %}-->
-<!--    {% else %}-->
-<!--        <p>Hello. There is no text now. Tap to "Create" to make a new task!</p>-->
-    {% endif %}
+        <p><a href="/">ссылка 1</a></p>
 {% endblock %}
